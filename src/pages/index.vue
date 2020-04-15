@@ -5,7 +5,7 @@
       :grid="veHistogramGrid"
       :legend="veHistogramLegend"
       height="300px"
-      v-roles="'普通用户'"
+      v-roles="'超级管理员'"
     ></ve-histogram>
   </div>
 </template>
