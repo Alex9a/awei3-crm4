@@ -5,7 +5,7 @@
       :grid="veHistogramGrid"
       :legend="veHistogramLegend"
       height="300px"
-      v-roles="'普通用户'"
+      v-roles="'超级管理员'"
     ></ve-histogram>
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
   components: {},
   data: function() {
     return {
-      pageName: "首页",
+      pageName: "个人中心",
       veHistogramData: {
         columns: ["日期", "访问用户", "下单用户", "下单率"],
         rows: [

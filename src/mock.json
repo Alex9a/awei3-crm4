@@ -1,0 +1,57 @@
+{
+    "menus": [
+        {
+            "name": "首页",
+            "path": "/",
+            "icon": "home--fill",
+            "level": 1,
+            "sort": 0,
+            "menu_id": "1586833123418",
+            "parent_id": 0,
+            "roles": [],
+            "children": [],
+            "mark": "/"
+        },
+        {
+            "name": "个人中心",
+            "path": "my",
+            "icon": "archive-drawer-fill",
+            "level": 1,
+            "sort": 1,
+            "menu_id": "1586867848233",
+            "parent_id": 0,
+            "roles": [],
+            "children": []
+        },
+        {
+            "name": "工作台",
+            "path": "yyy",
+            "icon": "archive-drawer-fill",
+            "level": 1,
+            "sort": 2,
+            "menu_id": "1586878456088",
+            "parent_id": 0,
+            "roles": [
+                "普通用户",
+                "超级管理员"
+            ],
+            "children": []
+        }
+    ],
+    "logo": {
+        "type": 2,
+        "image": "",
+        "text": "LOGO",
+        "query": {}
+    },
+    "menuCollapse": false,
+    "users": [
+        {
+            "avatar": "https://deepexi.oss-cn-shenzhen.aliyuncs.com/xpaas-console/user-portrait.png",
+            "name": "admin",
+            "urlType": 0,
+            "query": {},
+            "newWindow": false
+        }
+    ]
+}
